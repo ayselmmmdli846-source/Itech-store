@@ -1609,4 +1609,59 @@ nav ul {
         width: 90%;
     }
 
+}@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 30px;
+    }
+
+    .categories,
+    .products {
+        padding: 40px 20px;
+    }
+
+    .category-list,
+    .product-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .category-card {
+        width: 45%;
+    }
+
+    .product-card {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .campaign {
+        margin: 30px 20px;
+        padding: 30px 20px;
+    }
+
+    .campaign h2 {
+        font-size: 26px;
+    }
+
+    footer {
+        padding: 40px 20px;
+    }
 }
